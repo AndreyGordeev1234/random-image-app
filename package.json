@@ -1,0 +1,37 @@
+{
+  "name": "images-catalog",
+  "version": "0.1.0",
+  "description": "Catalog for images",
+  "main": "src/index.js",
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development webpack --watch",
+    "start": "cross-env NODE_ENV=development webpack serve --open",
+    "dev": "cross-env NODE_ENV=development webpack",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "keywords": [],
+  "author": "Andrey Gordeev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/random-words": "^1.1.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.1",
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "random-words": "^1.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

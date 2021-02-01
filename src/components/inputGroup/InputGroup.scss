@@ -1,0 +1,28 @@
+.main-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  input {
+    max-width: 400px;
+    min-width: 200px;
+    margin-right: 10px;
+  }
+
+  input:first-child {
+    margin-left: 0;
+  }
+
+  .btn {
+    margin-right: 10px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    @media screen and (max-width: 500px) {
+      margin-top: 5px;
+    }
+  }
+}
