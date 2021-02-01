@@ -36,7 +36,7 @@ export const useImageApp = () => {
       let tagSplitted = tagTrimmed.split(',');
 
       tagSplitted = tagSplitted
-        .map((tag) => tag.trim())
+        .map((tag) => tag.trim().toLowerCase())
         .filter((tag) => tag.trim() !== '');
 
       if (tagSplitted.length === 1 && tagSplitted[0] === 'delay') {
